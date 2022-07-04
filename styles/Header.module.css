@@ -1,30 +1,33 @@
 .header {
-    background-image: linear-gradient(to right, rgb(0 0 0 / .8), rgb(0 0 0 / .7)), url(../public/img/header.jpg);
     background-size: cover;
     background-position: 50%;
-    padding: 5rem 0;
+    font-family: var(--fuente-menu);
 }
 
 .barra {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 3rem;
 }
 @media (min-width:768px) {
     .barra {
         flex-direction: row;
-        justify-content: space-between;
     }
 }
 
 .navegacio {
     margin-top: 5rem;
     display: flex;
+    text-align: center;
     gap: 2rem;
+    margin: auto;
+    font-family: var(--fuente-menu);
 }
 @media (min-width: 768px) {
     .navegacion {
         margin-top: 0;
+        margin: auto;
     }
 }
 
@@ -39,5 +42,5 @@
     transition-duration: .3s;
 } 
 .navegacion a:hover {
-    background-color: var(--primary);
+    background: var(--gradiente);
 }
