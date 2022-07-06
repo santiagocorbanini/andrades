@@ -2,6 +2,7 @@
     background-size: cover;
     background-position: 50%;
     font-family: var(--fuente-menu);
+    
 }
 
 .barra {
@@ -23,11 +24,17 @@
     gap: 2rem;
     margin: auto;
     font-family: var(--fuente-menu);
+    width: 350px;
+    justify-content: space-between;
+    display: flex;
 }
 @media (min-width: 768px) {
     .navegacion {
         margin-top: 0;
         margin: auto;
+        width: 350px;
+        justify-content: space-between;
+        display: flex;
     }
 }
 
