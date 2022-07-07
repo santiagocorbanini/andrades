@@ -7,7 +7,7 @@ const Footer = () => {
 
   return (
     <footer className={`${styles.footer} text-center text-lg-start`}>
-    <div className="container d-flex justify-content-center py-5">
+{/*     <div className="container d-flex justify-content-center py-5">
       <button type="button" class="btn btn-primary btn-lg btn-floating mx-2">
       El
       </button>
@@ -26,7 +26,7 @@ const Footer = () => {
     <div className="text-center text-white p-3 bg-dark">
       © {year} Copyright:  
       <a className="text-white" href="https://pampacode.com/">  pampacode.com</a>
-    </div>
+    </div> */}
 
   </footer>
   )

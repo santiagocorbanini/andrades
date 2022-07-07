@@ -11,12 +11,12 @@
   --negro: #262626;
   --blanco: #FFF;
   --gradiente: linear-gradient(90deg, #00F3FF -3.74%, #00F262 130.01%);
-  --fuente-principal: 'Inter', sans-serif;  
-  --fuente-menu: 'Poppins', sans-serif;
+  --fuente-poppins: 'Inter', sans-serif;  
+  --fuente-poppins: 'Poppins', sans-serif;
 }
 /* font-size 62.5% */
 html {
-  font-size: 80%;
+  font-size: 62.5%;
   box-sizing: border-box;
 }
 
@@ -25,7 +25,7 @@ html {
 }
 body {
   font-size: 2rem;
-  font-family: var(--fuente-principal);
+  font-family: var(--fuente-poppins);
   line-height: 1.5;
   background-image: url("../public/img/fondo.png");
   background-color: #000000;
@@ -53,4 +53,34 @@ img {
   max-width: 150rem;
   margin: 0 auto;
   width: 95%;
+}
+
+h1 {
+  font-size: 53px;
+  color: #FFF;
+  position: relative;
+  left: 288px;
+}
+p {
+  font-size: 13.9px;
+  color: #FFF;
+}
+.container-p {
+  width: 1115px;
+  height: 162.53px;
+  position: relative;
+  left: 288px;
+}
+.container-home {
+  margin-top: -250px;
+  margin-bottom: 900px;
+  height: 376.69px;
+}
+.image {
+  z-index: 0;
+  position: relative;
+  top: 450px;
+}
+#profile {
+  opacity: 0.2;
 }
