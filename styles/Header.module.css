@@ -28,6 +28,9 @@
     .navegacion {
         margin-top: 0;
         margin: auto;
+        width: 350px;
+        justify-content: space-between;
+        display: flex;  
     }
 }
 

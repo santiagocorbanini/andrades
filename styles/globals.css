@@ -3,6 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 :root {
   --primary: #e99401;
   --negro: #262626;
@@ -30,6 +34,7 @@ body {
   background-repeat:no-repeat;
   background-position-x:center;
   background-position-y:center;
+  background-color: #000000;
   background-size: 400rem;
 }
 img {
